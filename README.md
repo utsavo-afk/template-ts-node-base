@@ -8,10 +8,12 @@ Configure this and add the rest of your stack as required
 
 ## Dependencies
 
-There are no dependencies in the boilerplate
+The dependencies are
 
-```js
-// EMPTY -> customise your dev stack
+```json
+"dependencies": {
+    "dotenv-safe": "^8.2.0"
+  }
 ```
 
 ## DevDependencies
@@ -19,5 +21,21 @@ There are no dependencies in the boilerplate
 The development dependencies are
 
 ```json
-"devDependencies": { "@types/node": "^16.11.7", "@typescript-eslint/eslint-plugin": "^5.3.1", "@typescript-eslint/parser": "^5.3.1", "cross-env": "^7.0.3", "eslint": "^8.2.0", "eslint-config-prettier": "^8.3.0", "eslint-import-resolver-typescript": "^2.5.0", "eslint-plugin-import": "^2.25.3", "eslint-plugin-prettier": "^4.0.0", "nodemon": "^2.0.15", "prettier": "^2.4.1", "ts-node": "^10.4.0", "tsconfig-paths": "^3.11.0", "typescript": "^4.4.4" }
+"devDependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/node": "^16.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.4"
+  }
 ```
